@@ -55,7 +55,7 @@ model.add(Dropout(0.5))
 model.add(Dense(units=1))
 
 model.compile(optimizer='adam', loss='mean_squared_error')  # Compiling the model
-model.fit(x_train, y_train, epochs=20, batch_size=32)        # Training the model
+model.fit(x_train, y_train, epochs=10, batch_size=32)        # Training the model
 model.save('spm.h5')
 
 # Prepare test data
