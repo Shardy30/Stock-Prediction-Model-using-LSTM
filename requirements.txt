@@ -10,7 +10,7 @@ keybert==0.6.0
 keyphrase_vectorizers==0.0.10
 plotly==5.8.2
 railroad==0.5.0
-scikit_learn==1.1.2
+scikit_learn==1.1.1
 sentence_transformers==2.2.2
 spacy==3.2.0
 streamlit_option_menu==0.3.2
